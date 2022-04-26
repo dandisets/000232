@@ -17,33 +17,33 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 50028358178
-  numberOfFiles: 71
-  numberOfSubjects: 11
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 59562812173
+  numberOfFiles: 86
+  numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
-  - ElectrodeGroup
-  - BehavioralTimeSeries
-  - ElectricalSeries
   - ProcessingModule
   - LFP
+  - ElectrodeGroup
+  - ElectricalSeries
+  - BehavioralTimeSeries
+  - Units
 citation: Chang, Yi-Ting; OConnor, Daniel H (2022) Rule-based modulation of  a sensorimotor
   transformation across cortical areas (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000232/draft
