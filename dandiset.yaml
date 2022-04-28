@@ -8,28 +8,28 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 42525132178
+  numberOfBytes: 36639903614
   numberOfFiles: 86
   numberOfSubjects: 13
   schemaKey: AssetsSummary
@@ -38,12 +38,12 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
-  - ElectricalSeries
-  - BehavioralTimeSeries
   - LFP
   - Units
+  - BehavioralTimeSeries
   - ElectrodeGroup
+  - ProcessingModule
+  - ElectricalSeries
 citation: Chang, Yi-Ting; OConnor, Daniel H (2022) Rule-based modulation of  a sensorimotor
   transformation across cortical areas (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000232/draft
