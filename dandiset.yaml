@@ -107,6 +107,7 @@ contributor:
   schemaKey: Organization
   url: https://english.moe.gov.tw/mp-1.html
 dateCreated: '2022-04-11T15:37:16.661978+00:00'
+datePublished: '2024-05-10T20:38:21.534058+00:00'
 description: 'Flexible responses to sensory stimuli based on changing rules are critical
   for adapting to a dynamic environment. However, it remains unclear how the brain
   encodes and uses rule information to guide behavior. Here, we made single-unit recordings
@@ -134,11 +135,23 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000232/versions/draft/assets/
 name: Rule-based modulation of a sensorimotor transformation across cortical areas
 protocol: []
+publishedBy:
+  endDate: '2024-05-10T20:38:21.534058+00:00'
+  id: urn:uuid:529780f0-9c17-4c42-bb25-1270fad99008
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-10T20:38:21.534058+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0d89dcbb-dd6e-45d7-9237-3fed7d490cf3
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.5281/zenodo.11176244
   name: 'Processed data for: Rule-based modulation of a sensorimotor transformation
     across cortical areas'
-  relation: dcite:IsPublishedIn
+  relation: dcite:IsSupplementTo
   repository: Zenodo
   resourceType: dcite:Dataset
   schemaKey: Resource
@@ -146,11 +159,11 @@ relatedResource:
 - identifier: 10.1101/2023.08.21.554194
   name: 'Preprint for: Rule-based modulation of a sensorimotor transformation across
     cortical areas'
-  relation: dcite:IsPublishedIn
+  relation: dcite:IsSourceOf
   repository: BioRxiv
   resourceType: dcite:Preprint
   schemaKey: Resource
-  url: ' https://doi.org/10.1101/2023.08.21.554194'
+  url: https://www.biorxiv.org/content/10.1101/2023.08.21.554194v2
 - identifier: '728394894'
   name: 'Code for: Rule-based modulation of a sensorimotor transformation across cortical
     areas'
@@ -159,6 +172,14 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/YitingChang/cross_modal_task.git
+- identifier: 12:RP92620
+  name: 'Paper for: Rule-based modulation of a sensorimotor transformation across
+    cortical areas'
+  relation: dcite:IsSourceOf
+  repository: eLife
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://elifesciences.org/reviewed-preprints/92620v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
