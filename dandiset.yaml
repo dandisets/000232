@@ -45,8 +45,8 @@ assetsSummary:
   - ElectrodeGroup
   - BehavioralTimeSeries
 citation: Chang, Yi-Ting; OConnor, Daniel H (2024) Rule-based modulation of a sensorimotor
-  transformation across cortical areas (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000232/draft
+  transformation across cortical areas (Version 0.240510.2038) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000232/0.240510.2038
 contributor:
 - affiliation: []
   email: ychang73@jhmi.edu
@@ -125,14 +125,15 @@ description: 'Flexible responses to sensory stimuli based on changing rules are 
   (3) optogenetic disruption of pre-stimulus states impaired task performance. Our
   findings indicate that flexible action selection in response to sensory input can
   occur via configuration of preparatory states in the motor cortex.'
+doi: 10.48324/dandi.000232/0.240510.2038
 ethicsApproval: []
-id: DANDI:000232/draft
+id: DANDI:000232/0.240510.2038
 identifier: DANDI:000232
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000232/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000232/0.240510.2038/assets.yaml
 name: Rule-based modulation of a sensorimotor transformation across cortical areas
 protocol: []
 publishedBy:
@@ -184,6 +185,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000232/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000232/0.240510.2038
+version: 0.240510.2038
 wasGeneratedBy: []
